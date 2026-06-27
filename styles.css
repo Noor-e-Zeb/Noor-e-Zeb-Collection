@@ -129,7 +129,7 @@ img {
   inset: 0;
   background: radial-gradient(circle at 30% 30%, rgba(230, 198, 83, 0.18), transparent 18%),
     linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0) 45%),
-    url('https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80');
+    url('https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=1200&q=80');
   background-size: cover;
   background-position: center;
   filter: saturate(0.95) contrast(1.1);
@@ -171,7 +171,7 @@ img {
   font-size: clamp(3rem, 5vw, 5rem);
   line-height: 0.98;
   margin: 0;
-  color: var(--white);
+  color: #FFFFFF;
   letter-spacing: 0.04em;
   text-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
 }
@@ -180,7 +180,7 @@ img {
   margin: 1.5rem 0 1.5rem;
   font-size: 1.05rem;
   line-height: 1.85;
-  color: rgba(255, 255, 255, 0.78);
+  color: #F9F9F9;
 }
 
 .hero-features article {
@@ -221,24 +221,10 @@ img {
 .eyebrow {
   display: inline-block;
   margin-bottom: 1rem;
-  color: #b27c42;
+  color: #D4AF37;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.16em;
-}
-
-.hero h1 {
-  font-size: clamp(2.5rem, 5vw, 4.5rem);
-  line-height: 1.02;
-  margin: 0;
-  color: #21170f;
-}
-
-.hero p {
-  margin: 1.5rem 0 2rem;
-  font-size: 1.05rem;
-  line-height: 1.75;
-  color: #4e4238;
 }
 
 .btn {
@@ -256,10 +242,9 @@ img {
 }
 
 .btn-primary {
-  background: var(--gold-strong);
+  background: #D4AF37;
   color: #0B0B0B;
-  box-shadow: 0 20px 45px rgba(255, 215, 0, 0.25);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 26px 50px rgba(212, 175, 55, 0.30);
 }
 
@@ -287,7 +272,7 @@ img {
   margin-bottom: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.25em;
-  color: var(--gold-strong);
+  color: #D4AF37;
   font-weight: 700;
   font-size: 0.85rem;
 }
