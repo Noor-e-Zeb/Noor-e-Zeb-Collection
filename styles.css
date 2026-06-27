@@ -352,10 +352,17 @@ img {
 }
 
 .card h3 {
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.4rem;
   font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.4rem;
   color: var(--white);
+}
+
+.product-price {
+  margin: 0 0 0.85rem;
+  color: #D4AF37;
+  font-weight: 700;
+  letter-spacing: 0.08em;
 }
 
 .card p {
