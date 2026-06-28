@@ -158,6 +158,60 @@ img {
   opacity: 0.85;
 }
 
+.hero-deco {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+
+.hero-necklace {
+  position: relative;
+  width: 74%;
+  max-width: 360px;
+  aspect-ratio: 1 / 0.75;
+}
+
+.necklace-chain {
+  position: absolute;
+  inset: 0;
+  border-radius: 50% 50% 40% 40%;
+  border: 10px solid rgba(212, 175, 55, 0.4);
+  filter: blur(0.5px);
+}
+
+.necklace-pendant {
+  position: absolute;
+  left: 50%;
+  top: 42%;
+  transform: translateX(-50%);
+  width: 72px;
+  height: 92px;
+  background: radial-gradient(circle at 50% 30%, #FFF8D9 0%, #D4AF37 44%, #b28f0b 100%);
+  border-radius: 50% 50% 60% 60%;
+  box-shadow: 0 0 40px rgba(212, 175, 55, 0.35), inset 0 0 18px rgba(255, 255, 255, 0.35);
+}
+
+.necklace-pendant::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -15px;
+  transform: translateX(-50%);
+  width: 22px;
+  height: 26px;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+}
+
+.necklace-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 48%, rgba(212, 175, 55, 0.25), transparent 38%);
+  filter: blur(4px);
+}
+
 .hero-visual {
   position: relative;
   z-index: 1;
