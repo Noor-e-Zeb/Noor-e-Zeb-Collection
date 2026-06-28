@@ -62,7 +62,6 @@ if (grid) {
       </div>
       <div class="card-content">
         <div class="card-icon">${item.icon}</div>
-        <p class="product-badge">${item.badge}</p>
         <h3>${item.title}</h3>
         <p class="product-price">${item.price}</p>
         <p class="product-desc">${item.description}</p>
