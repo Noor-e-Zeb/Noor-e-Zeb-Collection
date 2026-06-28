@@ -74,7 +74,7 @@ img {
 
 .nav {
   display: flex;
-  gap: 1.6rem;
+  gap: 1.2rem;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -84,10 +84,44 @@ img {
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 0.04em;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-.nav a:hover,
+.nav-social {
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.03);
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-social:hover,
+.nav a:hover {
+  color: #0b0b0b;
+  background: rgba(212, 175, 55, 0.95);
+  border-color: transparent;
+  transform: translateY(-1px);
+}
+
+.nav-whatsapp {
+  background: rgba(37, 211, 102, 0.12);
+  color: #e8f7eb;
+  border-color: rgba(37, 211, 102, 0.24);
+}
+
+.nav-whatsapp:hover {
+  background: #25d366;
+  color: #0b0b0b;
+}
+
+.nav-instagram,
+.nav-facebook {
+  background: rgba(255, 255, 255, 0.06);
+}
+
 .nav a:focus-visible {
   color: var(--gold-strong);
 }
@@ -220,30 +254,12 @@ img {
   flex-direction: column;
   justify-content: flex-end;
   padding: 2rem;
-  background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.45) 100%);
-}
-
-.hero-badge {
-  display: inline-flex;
-  width: fit-content;
-  padding: 0.7rem 1rem;
-  margin-bottom: 1rem;
-  border-radius: 999px;
-  background: rgba(11, 11, 11, 0.72);
-  color: var(--white);
-  letter-spacing: 0.2em;
-  font-size: 0.8rem;
-  border: 1px solid rgba(230, 198, 83, 0.18);
-  animation: slideUp 0.6s ease-out 0.3s backwards;
-}
-
-.hero-visual h3 {
-  margin: 0;
-  font-size: 1.8rem;
-  color: #FFF8D9;
-  font-family: 'Playfair Display', Georgia, serif;
-}
-
+    background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.6) 100%);
+    color: var(--white);
+    letter-spacing: 0.2em;
+    font-size: 0.8rem;
+    border: 1px solid rgba(230, 198, 83, 0.18);
+    animation: slideUp 0.6s ease-out 0.3s backwards;
 .hero-visual p {
   margin: 0.55rem 0 0;
   max-width: 320px;
