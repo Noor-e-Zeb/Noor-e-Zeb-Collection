@@ -503,3 +503,74 @@ img {
     display: block;
   }
 }
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 3.2rem 0 1.8rem;
+  }
+
+  .hero-shell {
+    gap: 0.9rem;
+  }
+
+  .hero-panel {
+    min-height: 240px;
+  }
+
+  .hero-label {
+    bottom: 0.9rem;
+    left: 0.9rem;
+    padding: 0.65rem 1rem;
+    font-size: 0.75rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .hero-details {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+    margin-top: 1.3rem;
+    font-size: 0.86rem;
+  }
+
+  .hero h1 {
+    font-size: clamp(1.9rem, 11vw, 2.6rem);
+    line-height: 1.06;
+  }
+
+  .hero p {
+    margin: 1rem 0 1.25rem;
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.95rem 1rem;
+    font-size: 0.94rem;
+  }
+
+  .section {
+    padding: 3.2rem 0;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(1.8rem, 8vw, 2.2rem);
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .card h3 {
+    font-size: 1.12rem;
+  }
+
+  .card p,
+  .product-price {
+    font-size: 0.95rem;
+  }
+}
