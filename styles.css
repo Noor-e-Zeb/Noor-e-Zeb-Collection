@@ -456,7 +456,7 @@ img {
 .card-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
   transition: transform 0.5s ease, filter 0.5s ease;
 }
@@ -987,3 +987,4 @@ img {
     font-size: 0.95rem;
   }
 } 
+/* vercel-force-css-refresh-1782871366445 */
