@@ -988,3 +988,6 @@ img {
   }
 } 
 /* vercel-force-css-refresh-1782871366445 */
+
+.card-image-wrapper { background: #181818 !important; }
+.card-image { background: transparent !important; }
